@@ -1,0 +1,111 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.space {
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+form {
+    width: 50%;
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input, button {
+    width: 100%;
+}
+
+button {
+    margin: 0px 10px;
+}
+
+.error {
+    color: rgb(255, 102, 102);
+    font-weight: bold;
+}
+
+.success {
+    color: #68ff68;
+    font-weight: bold;
+}
+th {
+    color: rgb(113, 238, 255);
+}
+tr,th, td {
+    text-align: center !important;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions button {
+    max-width: 80px;
+}
+
+.create-container-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+    
+    width: 100%;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+div .btn-create {
+    background-color: rgb(19, 28, 37);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(19, 28, 37);
+}
+
+.table_users {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.widthable {
+    padding: 0;
+}
+
+.widthable th {
+    width: 100px;
+}
+
+.widthable .actions {
+    flex-direction: column;
+}
+
+.widthable .actions button {
+    margin: 5px 0;
+    width: 100%;
+}
